@@ -1,0 +1,579 @@
+body 
+{
+    direction:rtl;
+}
+
+div{
+    margin:10px 5px;
+    clear:both;
+}
+#recpie li{
+    margin-right:20px;
+}
+
+                                                  /*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+#zodiac{
+    background-image: url(../images/Zodiac.jpg);
+    height:150px;
+    width:150px;
+    background-position:300px;
+}
+
+
+/*חלק ב' - תרגיל 2 - aside*/
+#aside {
+    border: 3px solid black;
+    width: 380px;
+    height: 250px;
+}
+
+#decoration {
+background-image:url(../images/decorative.png);
+background-repeat:no-repeat;
+margin-bottom:15px;
+background-position:center;
+ width:360px;
+  height:50px;
+  background-size:300px;
+
+}
+#aside h1
+{
+    margin: 10px;
+    padding: 10px;
+    background-color:#8afc9c;
+    text-align:center;
+  
+
+    
+   
+}
+
+#aside p
+{
+    text-align:justify;
+    padding-left:35px;
+    padding-right:35px;
+    
+}
+
+#aside p:first-letter
+{
+    font-size: 36pt;
+    color:#f842b5;
+}
+
+
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+
+#instegram
+{
+    background-image:url(../images/instegram.png );
+    background-position:right;
+    width:100px;
+    height:100px;
+
+}
+
+#instegram:hover
+{
+      background-image:url(../images/instegram.png );
+    background-position:left;
+    width:100px;
+    height:100px;
+}
+/*חלק ב' - תרגיל 4 - זברה*/
+
+#zebra
+{
+    border: 6px solid #127012;
+    width:150px;
+    height:220px;
+    background-color: mediumpurple;
+    color: white;
+    font-size:18pt;
+      padding-right:10px;
+      padding-top:10px;
+    }
+#zebra li:nth-child(even)
+{
+    font-size:10pt;
+    text-align:center;
+
+    }
+
+#zebra li
+{
+    list-style-type:none;
+
+}
+
+#zebra:hover
+{
+    border: 6px solid mediumpurple;
+    width:150px;
+    height:220px;
+    background-color: #127012;
+    color: white;
+    font-size:10pt;
+      padding-right:10px;
+      padding-top:10px;
+            
+    }
+#zebra:hover li:nth-child(even)
+{
+    font-size:18pt;
+    }
+
+/*חלק ב' - תרגיל 5 - זומבי*/
+
+#zombie
+{
+    background-image:url(../images/Zombie.png);
+    background-position:center;
+    width:100px;
+    height:150px;
+}
+
+#zombie:hover
+{
+    background-image:url(../images/Zombie.png);
+    background-position:right;
+    width:100px;
+    height:150px;
+}
+
+#zombie:active
+{
+    background-image:url(../images/Zombie.png);
+    background-position:left;
+    width:100px;
+    height:150px;
+}
+                                                /*חלק ג' - HTML+CSS */
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+
+#semantic
+{
+    background-image:url(../images/frame.jpg);
+    background-repeat:no-repeat;
+   background-size:400px;
+   width:400px;
+   height:252px;
+   background-position:right;
+   
+
+}
+
+#semantic h1
+{
+   
+    font-size:24px;
+    text-align:center;
+    padding-top:80px;
+    padding-right:90px;
+
+}
+
+#semantic p
+{
+    text-align:justify;
+    margin-top:10px;
+    padding-right:90px;
+    font-size:18px;
+}
+
+#semantic section
+{
+    width:300px;
+    height:200px;
+}
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+
+#myWebSite
+
+{
+    border: 6px dashed purple;
+    height:400px;
+    width:550px;
+    border-radius: 30px;
+}
+
+#myWebSite h1
+{
+    font-size:38px;
+    text-align:center;
+
+   }
+
+
+#myWebSite header p
+{
+      font-size:22px;
+    text-align:center;
+}
+
+#myWebSite section
+{
+    padding-top:20px;
+}
+
+#myWebSite footer
+{
+    text-align:center;
+   
+}
+
+#myWebSite li
+{
+    list-style-type: none;
+    padding-top:50px;
+    text-decoration:none;
+}
+#myWebSite a
+{
+ text-decoration:none;
+ color: #6969bf;
+ font-weight:bold;
+}
+
+  #a
+{
+    margin-right: 15px;
+    list-style: url(../images/Profile.png);
+    list-style-position:inside;
+}
+#b
+{
+    margin-right: 100px;
+     list-style: url(../images/Heart.png);
+  list-style-position:inside;
+}
+  #c
+{
+    margin-right: 300px;
+    list-style: url(../images/Academic.png);
+   list-style-position:inside;
+}
+
+  
+
+                                              /*חלק ד' - תפריטי ניווט*/
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+#news ul
+{
+    list-style:none;
+    margin-top:50px;
+}
+
+#news nav ul li
+{
+    display:inline-block;
+    float:right;
+}
+#news nav ul li a
+{
+    background-color:black;
+    color: white;
+    text-align:center;
+    width:90px;
+    height:50px;
+    padding:10px;
+    text-decoration:none;
+    
+}
+   
+#news nav ul li img:first-child
+{
+    width:20px;
+    height:20px;
+    margin-top: -20px;
+   
+        
+}
+
+div #second ul li
+{
+    display:inline-block;
+    margin-top:40px;
+    
+
+     }
+
+div #second ul li:after
+{
+    content:">";
+    
+}
+
+div #second ul li:last-child:after
+{
+    content:"";
+}
+
+div #second ul li a
+{
+    background-color:white;
+    color:#f842b5;
+}
+
+div #second ul li:nth-child
+{
+    color:black;
+}
+
+   
+
+/*חלק ד' - תרגיל 2 - hit*/
+
+
+#hit
+{
+    padding-bottom:400px;
+    padding-top:50px;
+}
+
+#hit ul
+{
+    list-style:none;
+    
+}   
+
+#hit nav ul li
+{
+    display:inline-block;
+    float:right;
+}   
+
+#hit nav ul li a
+{
+    display:block;
+    background-color: black;
+    color:white;
+    width:100px;
+    height:20px;
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+    font-size:10pt;
+}
+
+#hit nav ul li a:hover
+{
+    background-color:#72c6f6;
+}
+
+
+#hit nav ul li ul
+{
+    display:none;
+    position:absolute;
+}   
+
+#hit nav ul li:hover> ul
+{
+    display:block;
+    width:120px;
+}
+
+#hit ul li ul li:hover> ul
+{
+    display:block;
+    width:120px;
+    margin-right:120px;
+    margin-top:-40px;
+    border: 3px solid #72c6f6;
+
+}
+
+
+                                                 /*חלק ה' - טבלאות*/
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+
+#mixingColors table
+{
+    margin-top:10px;
+}
+
+#mixingColors table, tr, th, td
+{
+    border: 2px solid black;
+    border-collapse:collapse;
+    width:300px;
+    height:30px;
+
+}
+
+
+#mixingColors table th
+{
+    text-align:right;
+}
+
+#red td:nth-child(2)
+{
+    background-color:red;
+}
+
+#yellow td:nth-child(3)
+{
+    background-color:yellow;
+}
+
+#blue td:nth-child(4)
+{
+    background-color:blue;
+}
+
+
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+#cookingVegetables
+{
+    padding-top:40px;
+}
+#head
+{
+    background-color:#fdc400;
+}
+
+#head2
+{
+    background-color:#127012;
+    color:white;
+}
+
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+
+#dani table {
+margin-top: 100px;
+table-layout: fixed;
+width: 700px;
+border-collapse:separate;
+
+}
+#dani td {
+border: 2px solid black;
+border-radius: 20px;
+width: 40px;
+height: 40px;
+text-align: center;
+font-weight: bold;
+
+}
+
+#dani th {
+border: 2px solid black;
+border-radius: 20px;
+width: 40px;
+height: 20px;
+background-color: lightblue;
+padding-top: 5px;
+}
+
+img
+{
+    width:50px;
+    height:50px;
+}
+
+
+
+                                                     /*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
+
+
+
+label
+{
+    
+    margin-top:60px;
+    font-family:Calibri;
+    color:purple;
+}
+
+input[type=text]
+{
+    display:block;
+    margin-bottom:15px;
+    border: 2px solid #f842b5;
+    border-radius: 4px;
+    
+}
+
+#send
+{
+    color:purple;
+    background-color:#f842b5;
+    font-weight:bold;
+    font-family:Calibri;
+    float:left;
+    margin-top:20px;
+}
+
+#HT5C3 h1
+{
+    font-family:Calibri;
+    font-size:24pt;
+    color:purple;
+    font-weight:bold;
+  text-align:center;
+}
+
+
+#head1
+
+    {
+    padding-top:20px;
+    font-family:Calibri;
+    font-size:18pt;
+    font-weight:bold;
+    color:purple;
+     text-align:center;
+     font-weight:bold
+}
+
+#HT5C3 section
+{
+    padding-top:20px;
+    font-family:Calibri;
+    font-size:16pt;
+    color:#f842b5;
+    text-align:center;
+     font-weight:bold
+}
+
+#firstraw
+{
+    margin-right:100px;
+}
+
+#secondraw
+{
+    margin-right:500px;
+    margin-top:-100px;
+}
+#third
+{
+      margin-right:500px;
+   
+}
+
+#fourraw
+{
+      margin-right:1000px;
+      margin-top:-60px;
+}
+
+#HT5C3 form
+{
+    border: 2px solid purple;
+    margin-top:20px;
+    height:150px;
+}
